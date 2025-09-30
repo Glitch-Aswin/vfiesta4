@@ -24,9 +24,11 @@ export default function VFiestaLanding() {
   )
   const events = useMemo(
     () => [
-      { id: 1, title: 'Frame Fiesta — Pre Event #3', date: 'Sept 9' },
-      { id: 2, title: 'Frame Fiesta — Pre Event #3', date: 'Sept 9' },
-      { id: 3, title: 'Frame Fiesta — Pre Event #3', date: 'Sept 9' },
+      { id: 1, title: 'Mascot Marvels - Pre Event #1 ', date: 'Oct 2nd' },
+      { id: 2, title: 'Doooodle — Pre Event #2', date: 'Oct 2nd' },
+      { id: 3, title: 'Game Gambit — Pre Event #3', date: 'Oct 4th' },
+      { id: 4, title: 'Goal Rush — Pre Event #4', date: 'Oct 5th' },
+      { id: 5, title: 'Stumble Fest — Pre Event #5', date: 'Oct 6th' },
     ],
     []
   )
@@ -56,8 +58,8 @@ export default function VFiestaLanding() {
         <About />
         <Gallery />
         <Tickets />
-        {/* <EventsGrid events={events} />
-        <SpeakersList speakers={speakers} />
+        <EventsGrid events={events} />
+        {/* <SpeakersList speakers={speakers} />
         <Schedule /> */}
         <Contact />
       </section>

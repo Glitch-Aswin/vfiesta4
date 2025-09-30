@@ -11,9 +11,9 @@ export default function Header() {
           <ul className="hidden md:flex gap-6 text-sm font-medium text-gray-600 font-aderos">
             <li><a href="#home" className="hover:text-gray-900">HOME</a></li>
             <li><a href="#about" className="hover:text-gray-900">ABOUT</a></li>
-            <li><a href="#events" className="hover:text-gray-900">EVENTS</a></li>
-            <li><a href="#speakers" className="hover:text-gray-900">SPEAKERS</a></li>
-            <li><a href="#schedule" className="hover:text-gray-900">SCHEDULE</a></li>
+            <li><a href="#events" className="hover:text-gray-900">PRE-EVENTS</a></li>
+            {/* <li><a href="#speakers" className="hover:text-gray-900">SPEAKERS</a></li>
+            <li><a href="#schedule" className="hover:text-gray-900">SCHEDULE</a></li> */}
             <li><a href="#contact" className="hover:text-gray-900">CONTACT</a></li>
           </ul>
         </div>
