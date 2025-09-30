@@ -23,7 +23,7 @@ export default function Contact() {
         {/* Right: Event heads with email below */}
         <div className="flex flex-col items-center gap-4">
           <div className="flex flex-row flex-wrap gap-8 md:gap-12 justify-center items-center">
-          <div className="flex flex-col items-center">
+<         div className="flex flex-col items-center">
             <ImageWithFallback
               src="/assets/img/contact1.jpg"
               alt="event lead"
@@ -33,6 +33,19 @@ export default function Contact() {
               text="Missing /assets/contact1.jpg"
             />
             <div className="mt-2 font-bold">Sandra Sara Soloman</div>
+            <div className="text-sm">+91 9074602051</div>
+          </div>
+
+          <div className="flex flex-col items-center">
+            <ImageWithFallback
+              src="/assets/img/contact4.jpg"
+              alt="event lead"
+              className="w-28 h-28 rounded-full object-cover"
+              width={150}
+              height={150}
+              text="Missing /assets/contact1.jpg"
+            />
+            <div className="mt-2 font-bold">Jez Thomas</div>
             <div className="text-sm">+91 9074602051</div>
           </div>
 
@@ -63,9 +76,9 @@ export default function Contact() {
           </div>
           </div>
 
-          <a href="mailto:ieeeeepie@gmail.com" className="inline-flex items-center gap-2 mt-8 font-bold">
+          <a href="mailto:ieeepie.kerala@gmail.com" className="inline-flex items-center gap-2 mt-8 font-bold">
             <img src="/assets/mail.svg" alt="Mail" className="w-10 h-10" loading="lazy" />
-            ieeeeepie@gmail.com
+            ieeepie.kerala@gmail.com
           </a>
         </div>
       </div>

@@ -10,6 +10,8 @@ export default function EventsGrid({ events }) {
             '/assets/img/event1.jpeg',
             '/assets/img/event2.jpeg',
             '/assets/img/event3.jpeg',
+            '/assets/img/event4.jpeg',
+            '/assets/img/event5.jpeg',
           ];
           return (
             <article key={e.id} className="border rounded overflow-hidden bg-white shadow-sm">

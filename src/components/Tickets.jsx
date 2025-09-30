@@ -8,7 +8,7 @@ export default function Tickets() {
   const ticketCategories = [
     { heading: 'Non - IEEE Members', price: '₹1299' },
     { heading: 'IEEE Members', price: '₹999' },
-    { heading: 'IEEE SB Providence', price: 'Special Price' },
+    { heading: 'IEEE SB PRC', price: 'Special Price' },
   ];
   return (
     <section id="tickets" className="py-12 text-center">
